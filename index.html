@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send Email</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container mt-5">
+		<div class="card shadow-lg">
+			<div class="card-header bg-gradient">
+				<h1 class="text-center text-white">Send Email</h1>
+			</div>
+			<div class="card-body">
+				<form id="email-form" method="post" action="sendemail.php">
+					<div class="form-group mb-3">
+						<label for="to">To:</label>
+						<input type="email" class="form-control" id="to" name="to" required>
+					</div>
+					<div class="form-group mb-3">
+						<label for="subject">Subject:</label>
+						<input type="text" class="form-control" id="subject" name="subject" required>
+					</div>
+					<div class="form-group mb-3">
+						<label for="message">Message:</label>
+						<textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="script.js"></script>
+</body>
+</html>
