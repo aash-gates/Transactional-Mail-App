@@ -1,0 +1,18 @@
+.bg-gradient {
+	background: linear-gradient(45deg, #007bff, #1e6db5);
+}
+.card {
+	border: none;
+}
+.form-control:focus {
+	border-color: #1e6db5;
+	box-shadow: none;
+}
+.btn-primary {
+	background-color: #1e6db5;
+	border-color: #1e6db5;
+}
+.btn-primary:hover {
+	background-color: #007bff;
+	border-color: #007bff;
+}
