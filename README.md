@@ -28,15 +28,9 @@ SENDGRID_API_KEY=your_sendgrid_api_key
 TO_EMAIL=recipient@example.com
 FROM_EMAIL=sender@example.com
 
-bash
-
-
 To start the application, run the following command in your terminal:
 
 php -S localhost:8000
-
-python
-
 
 Then, open your web browser and navigate to `http://localhost:8000` to access the application.
 
